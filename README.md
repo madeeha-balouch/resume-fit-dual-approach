@@ -37,7 +37,7 @@ Few studies have evaluated the interplay of multiple models in improving candida
 
 Our approach integrates:
 
-Predictive Modeling: Using classifiers (e.g., Naive Bayes, Logistic Regression) on combined embeddings for classifying candidate fit levels (Good Fit, Potential Fit, No Fit).
+Predictive Modeling: Using classifiers (e.g., Naive Bayes, Logistic Regression, etc..) on combined embeddings for classifying candidate fit levels (Good Fit, Potential Fit, No Fit). 
 
 Semantic Filtering: Using pretrained embedding models (Sentence-BERT, GloVe, Word2Vec) to generate dense vector representations of resumes and job descriptions. Cosine similarity is then computed between these vectors to assess their semantic alignment.
 
@@ -56,7 +56,7 @@ Stage 2: Computing cosine similarities between resumes and job descriptions and 
 
 Step 4: Resume Selection:
 
-For ensuring the selection of the best resume-job fit, the intersection of the results from both thestages is taken. This step shows the novelty of our proposed framework combined with the dual approach.
+To ensure the selection of the best resume-job fit, the intersection of the results from both stages is taken. This step shows the novelty of our proposed framework combined with the dual approach.
 
 Step 5: Evaluate performance using precision, recall, F1-score, and confusion matrices.
 
@@ -66,11 +66,11 @@ We conducted extensive experiments using the cnamuangtoun/resume-job-description
 
 ✅ Semantic Embedding Results on ML models' Performance:
 
-GloVe outperformed Sentence-BERT in maintaining contextual relevance on XGBoost amongst other trained models (74%)
+GloVe outperformed Sentence-BERT in maintaining contextual relevance on XGBoost amongst other trained models (76%)
 
 ✅ Static Embedding Results on ML models' Performance:
 
-XGBoost showed strong performance with static embedding  (Word2Vec - 76% Accuracy) - Best Performing model
+XGBoost showed strong performance with static embedding  (Word2Vec - 75% Accuracy) - Best Performing model
 
 XGBoost was the best performing model in both the cases. 
 
