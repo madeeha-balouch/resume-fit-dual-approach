@@ -24,7 +24,7 @@ While machine learning has gained traction in hiring workflows, current models s
 
 Despite advances in NLP and ML:
 
-Most solutions rely on either semantic or predictive methods—not both.
+Most solutions rely on either semantic or predictive methods, not both.
 
 There's limited focus on model explainability in candidate ranking systems.
 
